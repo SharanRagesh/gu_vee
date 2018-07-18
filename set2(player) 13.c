@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-void main()
+int main()
 {
  int n,t=0,r,q;
  scanf("%d",&n);
@@ -13,4 +13,5 @@ void main()
  }
  while(q%10!=0);
  printf("%d",t);
+ return 0;
 }
